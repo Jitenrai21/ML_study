@@ -1,0 +1,22 @@
+A cost function is an important parameter that determines how well a machine learning model performs for a given dataset.
+
+Cost fucntion is a measure of how wrong the model is in estimating the relationship between x input and y output parameter.
+
+Types: Regression and Classification
+
+Regression cost fucntion: MSE mean square error, RMSE Root mean square error, MAE Mean Absolute Error, R^2 Accuracy
+
+Classifcation cost functions: Binary CCF, Multi class CCF (by Binary Cross Entropy or Log Loss Function)
+
+a. MSE is the mean squared difference between the actual and predicted values. MSE penalizes high errors caused by outliers by squaring the errors. It is also known as L2 loss.
+b. MAE is the mean absolute difference between the actual values and the predicted values. More robust to outliers. This cannot give a perfect differentiation thus no perfect answer.
+c. RMSE is the root squared mean of the difference between actual and predicted values. RMSE can be used in situations where we want to penalize high errors but not as much as MSE does.
+
+How to find best fit line?
+error or loss = difference in the predicted and the acutal value.
+minimum error.
+evaluation by changes in m and c, slope and the interception. This is the gradient descent method.
+in change of m = change in angle of the line
+in change of c = parallel change in complete line
+
+Gradient descent method for the recognition of the differentiation.
