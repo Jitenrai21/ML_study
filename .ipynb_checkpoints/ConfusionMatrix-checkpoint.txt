@@ -1,0 +1,14 @@
+Confusion matric or error matrix
+It is a simple useful tool for understanding the performance of a classification model.
+
+Confusion Matrix Representation:
+0 in x-axis is negative and 1 is positive
+TN - True Negative having 0 on 0 is true but negative, so it is True Negative TN.
+FP - 1 on 0 is postive but false so False Positive.
+
+Accuracy = TN + TP / TN + TP + FP + FN
+Error = FN + FP / N  -> (N = TN + TP + FP + FN)
+
+FP = Type 1
+FN = Type 2 error
+If in case of critical cases the model predicts for patient to not having cancer even in case of having it. This calls for model cancellation.
