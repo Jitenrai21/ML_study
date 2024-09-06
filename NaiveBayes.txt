@@ -1,0 +1,13 @@
+Naive Bayes is a classification algorithm based on bayes theorem.
+Bayes theorem is a probability theory.
+Naive means the occurance of a certain feature.
+
+Bayes' Theorem:
+P(A|B).P(B) = P(B|A).P(A)
+P(A|B) = P(B|A).P(A) / P(B)
+P(A|B) -> probability of A when obeserved event B.
+
+Naive Bayes Model Types:
+a. Gaussian -> Input data in normal distribution curvature.
+b. Multinomial -> Multinomial distribution and discrete data.
+c. Bernoulli -> Features are binary(boolean) varicbles
