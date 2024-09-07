@@ -13,3 +13,6 @@ Entropy(s) = -P(yes)log2P(yes) - P(no)log2P(no)
 
 Information gain is the measurement of changes in entropy. Calculates how much info a feature provides us about a class.
 Info Gain = Entropy(s) - [(Weighted Avg)*Entropy(each feature)]
+
+Gini index: measure of impurity or purity 
+Gini index = 1 - εjPj2
