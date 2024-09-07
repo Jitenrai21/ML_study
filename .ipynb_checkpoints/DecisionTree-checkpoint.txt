@@ -1,0 +1,15 @@
+Decision tree works on CART algorithm CART -> Classification and Regression Tree algorithm
+Decision tree is a non linear separable algorithm.
+
+Root node: Divided into two or more homogenous sets.
+Splitting: Process of dividing nodes into sub nodes.
+Decision Node: subnodes splits into further subnodes.
+Leaf node: Terminal node
+Pruning: Opposite of splitting, removing sub-nodes.
+Branch/sub-tree: a subsection of the entire tree
+
+Entropy is a metric to measure the impurity in a given attribute.
+Entropy(s) = -P(yes)log2P(yes) - P(no)log2P(no)
+
+Information gain is the measurement of changes in entropy. Calculates how much info a feature provides us about a class.
+Info Gain = Entropy(s) - [(Weighted Avg)*Entropy(each feature)]
