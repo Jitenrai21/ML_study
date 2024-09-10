@@ -1,0 +1,12 @@
+Overfitting is the case where the difference between the accuracy score of the training set and testing set is high.
+
+Pruning decreases the size of the decision tree.
+
+Pre pruning is the static way of giving a max depth to the decisiontreeclassifier class. i.e dt = DecisionTreeClassifier(max_depth=2
+
+Posting pruning is done by checking the
+for i in range(1,20):
+    dt2 = DecisionTreeClassifier(max_depth=i)
+    dt2.fit(x_train,y_train)
+    print(dt2.score(x_train,y_train),dt2.score(x_test,y_test),i)
+    #this gives the best option for max_depth depending on the lowest difference
