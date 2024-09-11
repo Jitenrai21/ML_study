@@ -1,0 +1,13 @@
+#SVM is the most popular Supervised learning algorithm.
+#Simple SVM for linear data
+#SVM works for both classification and regression.
+#SVM works by creating two support vectors which are two datapoints that helps to split dataset for classification.
+#marginal plane or hyperplane are lines created on support vectors.
+#maximum margin or separable line is the situtated at center of hyperplanes.(by the mean of hyperlines)
+#Hard margin -> no datapoint between the hyperplanes
+#Soft margin -> inaccuracies
+
+For non-linear data
+We use Kernel SVM
+Kernel functions transform input data into higher dimensional space
+kernel function: linear, polynomial, Gaussian RBF, Sigmoid
