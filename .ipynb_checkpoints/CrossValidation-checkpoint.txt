@@ -1,0 +1,11 @@
+Cross validation is a technique for validating the model efficiency by training it on the subset of input data and testing on previously unseen subset of the input data.
+i.e cv = 5 means cross validation for 5 accuracies and comparision.
+
+Methods used:
+a. leave p out cross-validation(LpOCV) -> exhaustive cv technique involves using p-observation as validation data
+
+b. leave one out cross-validation(LOOCV) -> exhaustive validation technique, it is a category of Lp OCV with the case of p=1. in each iteration takes the leftmost data in testing.very accurate results but slow performance for big dataset.
+
+c. k-fold cross-validation -> dataset is equally partitioned into k subparts or fold, into validation data and training data. Not suitable for imbalanced dataset.
+
+d. stratified k-fold cross-validation -> mostly same as k-fold but the validation subpart most include data for all types of classified outputs. Solved the problem of an imbalanced dataset.(In classification, all classes's datapoints must be included in validation or test subpart.)
