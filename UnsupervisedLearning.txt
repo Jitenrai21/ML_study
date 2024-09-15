@@ -1,0 +1,6 @@
+Learns from unlabelled data.
+No pre-existing labels or categories.
+Goal is to discover patterns and relationships in the data without any explicit guidance.
+Types:
+Clustering -> divides data into small clusters.
+Association -> method for discovering interesting relations between variables in large databases.
