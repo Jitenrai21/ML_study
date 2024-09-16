@@ -1,0 +1,16 @@
+Used to group the dataset into a cluster and is also known as HCA Hierarchical Cluster Analysis.
+We develop a hierarchy of clusters in tree form known as dendrogram.
+
+Dendogram is a tree-like struture that is mainly used to store each step as a memory that the HC aldorithm performs.
+In dendogram plot, the Y-axis shows the Euclidean distances between the data points and the x-axis shows all the data points of the dataset.
+
+Two aproaches for HCA:
+a. Agglomerative -> bottom-up approach, individual datasets to clusters.
+b. Divisive -> reverse of Agglomerative, single cluster dividing into smallers.
+
+Measure of the Distance between clusters:
+Linkage methods are the ways to calculate the distance between clusters:
+a. Single Linkage -> considers minimum distance
+b. Complete Linkage -> considers maximum
+c. Average Linkage
+d. Centroid Linkage
