@@ -1,0 +1,10 @@
+Density-based Spatial clustering
+DBSCAN can be any shape, which can deal with some special cases that other methods cannot.
+
+Features:
+1. Minimum Point minpoint = 4 (points in the circle)
+2. Epsolin epn(r) = 0.5 (radius of circle around any datapoint)
+
+a. Core point (center point of the circle, is included in counting of the minimum point)
+b. Boundary point -> circles are created overlapping also and at the corner when, no. of point < minpoint is the boundary point
+c. Noise point -> also known as outlier, single datapoints and no other circle points
