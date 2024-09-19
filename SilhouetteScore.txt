@@ -1,4 +1,4 @@
 Silhouette refers to a method of interpretation and validation of consistency within the clusters of data.
 Silhouette score or coefficient is a metric to calculate the goodness of the clustering technique.
 value ranges from -1 to 1
-close to 1 is best and close to -1 is bad.
+close to 1 is best and close to -1 is bad.v
