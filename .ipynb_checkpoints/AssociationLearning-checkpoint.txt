@@ -1,0 +1,22 @@
+Association rule learning is a machine learning technique used to discover interesting relationships or patterns in large datasets.
+Often applied to transactional data where items are bought or used together.
+
+Association rule learning works on the concept of if else statement,
+If A Then B
+If element is called antecedent and then statement is called as consequent.
+
+Key factors:
+a. Support -> Straightforward calculation of frequently bought items.
+                Support(A) = Transactions(A) / Total Transactions
+
+b. Confidence -> This will tell us how confident (based on data) we can be that an item will be purchased, given that another item has been purchased.
+conf(X=>Y) = P(Y|X)
+           = supp(X intersect Y) / supp(X) # here the comparision of denominator supp(Y) decides for which arrangement to choose. 
+           = number of transactions containing X and Y / no. of transactions containing X
+
+c. Lift ->
+Given that different items are bought at different frequencies(strong association)
+lift(X=>Y) = supp(X intersect Y) / supp(X) * supp(Y)
+lift > 1 means that two items are more likely to be bought together
+lift < 1 means that two items are more likely to be bought separately
+lift = 1 means that there is no association between two items
