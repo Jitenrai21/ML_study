@@ -1,0 +1,37 @@
+Transaction ID:  Items
+T1 : {E, K, M, N, O, Y}
+T2 : {D, E, K, N, O, Y}
+T3 : {C, K, M, U, Y}
+T4 : {C, E, I, K, O}
+T5 : {A, E, K, M}
+
+min support = 50%
+min confidence = 50%
+
+for support,
+K = 5
+E = 4
+M = 3
+O = 3
+Y = 3
+
+for confidence,
+KE = 4
+KM = 3
+KO = 3
+KY = 3
+EM = 2 (nq) OUT
+EO = 3
+EY OUT
+MO OUT
+MY OUT
+OY OUT
+
+KEO = 3
+Confidence calculation for arrangement,
+KE = 4/4*100 (denominator represents the no. of E's) = 100%
+
+EK = 4/5*100 ((denominator represents the no. of K's)) = 80%
+
+KEO is the correct selection for arrangement.
+
