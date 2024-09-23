@@ -37,7 +37,7 @@ O:1
 Y:1
 
 Frequent pattern rules:
-Y|{OMEK}{OEK}{MK} : K -> Y
+Y|{OMEK}{OEK}{MK} : K -> Y 
 O|{MEK}{EK} : KE -> O [KE, KO, KEO]
 M|{EK}{K} : KM
 E|{K}
