@@ -1,0 +1,43 @@
+Steps:
+a. Frequent pattern set
+b. Ordered-item set
+c. Ordered-item set and conditional frequent pattern tree is built
+d. Frequent pattern rules
+
+Transaction ID:  Items
+T1 : {E, K, M, N, O, Y}  
+T2 : {D, E, K, N, O, Y}
+T3 : {C, K, M, U, Y}
+T4 : {C, E, I, K, O}
+T5 : {A, E, K, M}
+
+frequent pattern set:
+min support = 3
+K = 5
+E = 4
+M = 3
+O = 3
+Y = 3
+
+Ordered-item set:
+Transaction ID:  Items
+T1 : {E, K, M, N, O, Y}  ->  KEMOY
+T2 : {D, E, K, N, O, Y}  -> KEOY
+T3 : {C, K, M, U, Y}  ->  KMY
+T4 : {C, E, I, K, O}  ->  KEO
+T5 : {A, E, K, M}  ->  KEM
+
+Ordered-item set and conditional frequent pattern tree is built:
+
+null
+K:5-> M:1 ->Y:1
+E:4 -> O:2 -> Y:1
+M:2
+O:1
+Y:1
+
+Frequent pattern rules:
+Y|{OMEK}{OEK}{MK} : K -> Y
+O|{MEK}{EK} : KE -> O [KE, KO, KEO]
+M|{EK}{K} : KM
+E|{K}
