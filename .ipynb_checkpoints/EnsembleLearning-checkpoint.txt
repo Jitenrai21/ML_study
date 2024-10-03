@@ -1,6 +1,6 @@
-Essemble learning -> Training a single data upon multiple models.
+Ensemble learning -> Training a single data upon multiple models.
 Combine different answers and gives one answer.
-The Essemble methods combine the insights obtained from multiple learning models to facilitate accuracy and improved decisions and removes overfitting.
+The Ensemble methods combine the insights obtained from multiple learning models to facilitate accuracy and improved decisions and removes overfitting.
 
 2 Types:
 a. Bagging(Bootstrap Aggregating)
