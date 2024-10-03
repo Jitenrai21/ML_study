@@ -1,0 +1,31 @@
+Essemble learning -> Training a single data upon multiple models.
+Combine different answers and gives one answer.
+The Essemble methods combine the insights obtained from multiple learning models to facilitate accuracy and improved decisions and removes overfitting.
+
+2 Types:
+a. Bagging(Bootstrap Aggregating)
+b. Boosting
+
+Basic Essemble Techniques:
+a. Max Voting
+b. Averaging
+c. Weighted Average
+
+Advanced Essemble Techniques:
+a. Stacking
+b. Blending
+c. Bagging (These below two are most important and popular techniques )
+d. Boosting
+
+Algorithms based on Bagging and Boosting:
+Bagging Algorithms:
+a. Bagging meta-estimater
+b. Random Forest
+
+Boosting Algorithms:
+a. Adaboost
+b. GBM
+c. XGBM
+d. Light GBM
+e. CatBoost
+
