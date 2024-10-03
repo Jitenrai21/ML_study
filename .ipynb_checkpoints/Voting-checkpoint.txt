@@ -1,0 +1,12 @@
+Max Voting
+Averaging Voting
+Weighted Average Voting
+
+Max Voting:(uses voting classifier)
+Generally used for classification problems.
+Predictions by each model are considered as a 'vote'. Predictions from majority of models are used as the final prediction.
+
+Averaging Voting or Weighted Average Voting: (uses voting regressor)
+Takes an average of predictions from models and use it to make final prediction.
+Can be used for making predictions in regression problems or while calculating probabilities for classification problems.
+Can assign weight to the Models.
