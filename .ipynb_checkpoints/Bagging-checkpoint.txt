@@ -1,0 +1,19 @@
+Bagging (Bootstrap Aggregating):
+Parallel Technique to improve your model.
+Uses subsets(bags) to get a fair idea of the distribution(Complete set).
+Subsets are given different models each.
+eg, subset1 : dt1
+    subest2 : dt2
+    subset3 : dt3
+In Classification: combined prediction is the mode of the answers.
+In Rgression: Answer comes from the average.
+
+Bagging Algorithms:
+a. Bagging Meta-Estimator
+b. Random forest
+
+Bagging Meta-Estimator:
+Ensembling algorithm used for both Bagging Classifier and Bagging Regressor problems.
+
+Random Forest:
+Base estimator in random forests are decision trees.
