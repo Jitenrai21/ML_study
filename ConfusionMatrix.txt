@@ -1,4 +1,4 @@
-Confusion matric or error matrix
+Confusion matrix or error matrix
 It is a simple useful tool for understanding the performance of a classification model.
 
 Confusion Matrix Representation:

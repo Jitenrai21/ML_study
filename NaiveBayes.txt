@@ -6,8 +6,15 @@ Bayes' Theorem:
 P(A|B).P(B) = P(B|A).P(A)
 P(A|B) = P(B|A).P(A) / P(B)
 P(A|B) -> probability of A when obeserved event B.
+P(A∣B): Posterior probability — the probability of class A given features B
+
+The "naive" part assumes that all features 
+𝑋1,𝑋2,..,𝑋𝑛 are independent of each other given the class C. This simplifies the likelihood 
+P(X∣C) as:
+P(X∣C)=P(X1∣C)⋅P(X2∣C)⋅...⋅P(Xn∣C)
+This assumption reduces computational complexity, making the algorithm highly efficient.
 
 Naive Bayes Model Types:
-a. Gaussian -> Input data in normal distribution curvature.
+a. Gaussian(for continuous data) -> Input data in normal distribution curvature.
 b. Multinomial -> Multinomial distribution and discrete data.
 c. Bernoulli -> Features are binary(boolean) varicbles
